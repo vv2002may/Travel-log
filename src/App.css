@@ -1,38 +1,105 @@
 .App {
-  text-align: center;
+	/* font-family: 'Inter', sans-serif; */
+	/* max-width: 1200px; */
+	width: 95vw;
+	margin: 2% auto;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	padding: 1em 2em;
+	margin-bottom: 1em;
+  font-size: 25px;
+  letter-spacing: .1em;
+  font-weight: 500;
+	box-shadow: 0px 5.98256px 10.4564px rgba(255, 82, 82, 0.397);
+	background-color: #F55A5A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	flex-direction: column;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	background-color: #efeacd;
+	border-radius: 10px;
+}
+.travel{
+  display: flex;
+  margin: 10px ;
+  /* background-color: #dad7e9; */
+  border-radius: 9px;
+  /* border-style: dashed; */
+}
+.badge{
+  /* position: absolute; */
+  /* border-style: dashed; */
+  height: 19px;
+  margin: 15px;
+   background-color: rgb(214, 231, 189);
+   font-weight: 500;
+   font-size: 1.4em;
+   padding: 7px 10px;
+   border-style: solid;
+   border-color: #38373a;
+   border-radius: 10px;
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+}
+.travel-image{
+  /* border-style: dotted; */
+  width: 40vh;
+	border-radius: 11px;
+	margin-bottom: 9px;
+  margin: 40px 20px;
+}
+.travel-section{
+  /* border-style: dashed; */
+  padding: 15px;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.travel-text{
+  display: flex;
+  justify-content: start;
+	align-items: center;
+	max-height: 1em;
+	text-align: center;
+  /* border-style: dashed; */
+  margin-top: 10px;
+}
+.travel-logo{
+  height: 0.8em;
+  margin-right: -5.6em;
+  margin-left: -5em;
+  /* border-style: dashed; */
 }
 
-.App-link {
-  color: #61dafb;
+.location {
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding-left: 0.4em;
+	padding-right: 1em;
+}
+.travel-logo{
+  width: 20%;
+}
+a {
+	text-decoration: underline;
+	color: #38373a;
+	text-underline-offset: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 0.45em;
+}
+.date {
+	font-weight: 700;
+	font-size: 0.85em;
 }
