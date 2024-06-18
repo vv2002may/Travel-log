@@ -22,17 +22,22 @@ export default function Travel(props){
 
             </div>
 
-            <h2 className='title'>{props.title}</h2>
-
-            <div className="date">
+            
+            <ul>
+               <h2 className='title'>{props.title}</h2>
+               <li>
+                  <div className="date">
                     <span className="start-date">{props.startDate}</span>
                     <span className="dash"> - </span>
                     <span className="end-date">{props.endDate}</span>
-            </div>
-
-            <p className="description">
+                  </div>
+               </li>
+               <li>
+                  <p className="description">
                   <span>{props.description}</span>
-            </p>
+                  </p>
+               </li>
+            </ul>
 
          </div>
 
